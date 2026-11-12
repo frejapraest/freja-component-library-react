@@ -1,0 +1,82 @@
+.banner {
+    background-color: #EFF6FF;
+    width: 896px;
+    padding: 16px;
+    border-radius: 6px;
+    color: #1E40AF;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    gap: 12px;
+}
+
+svg {
+    font-size: 16px;
+}
+
+.banner-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.banner-text-container > *:nth-child(2) {
+    font-weight: 400;
+    color: #1C51B9;
+}
+
+.banner-text-container > p {
+    margin: 0;
+}
+
+.banner-success {
+    background-color: #ECFDF5;
+    color: #065F46;
+}
+
+.banner-success > div.icon-container > svg {
+    color: #34D399;
+}
+
+.banner-success > .banner-text-container > *:nth-child(2){
+    color: #047857;
+
+}
+
+.banner-warning {
+    background-color: #FFFBEB;
+    color: #92400E;
+}
+
+.banner-warning > div.icon-container > svg {
+    color: #FBBF24;
+}
+
+.banner-warning > .banner-text-container > *:nth-child(2){
+    color: #B45309;
+}
+
+.banner-error {
+    background-color: #FEF2F2;
+    color: #92400E;
+}
+.banner-error > div.icon-container > svg {
+    color: #F87171;
+}
+
+.banner-error > .banner-text-container > *:nth-child(2){
+    color: #B45309
+}
+
+.banner-neutral {
+    background-color: #EFF6FF;
+    color: #1E40AF;
+}
+
+.banner-neutral > div.icon-container > svg {
+    color: #60A5FA;
+}
+
+.banner-neutral > .banner-text-container > *:nth-child(2){
+    color: #1C51B9;
+}
