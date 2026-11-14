@@ -1,0 +1,51 @@
+.card {
+    background-color: #F9FAFB;
+    width: 24rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    gap: 1rem;
+}
+
+.icon-container {
+    background-color: #3F75FE;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform:translateY(-50%);
+    margin: 0;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.card-icon {
+    width: 1.5rem;
+    height: 1.625rem;
+    color: #FFFFFF;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.25rem;
+    width: 21rem;
+    padding-bottom: 1.875rem;
+}
+
+.text-container > * {
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+    font-size: 1.125rem;
+}
+
+.text-container > *:nth-child(2) {
+    color: #6B7280;
+    font-weight: 300;
+    font-size: 1rem;
+}
