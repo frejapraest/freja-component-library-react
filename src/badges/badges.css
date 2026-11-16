@@ -1,54 +1,54 @@
 .badge {
-    padding: 2px 12px;
-    background-color: #F3F4F6;
-    color: #1F2937;
-    width: 67px;
-    height: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 500;
+  padding: 2px 12px;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  width: 67px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .badge-square {
-    border-radius: 4px; 
+  border-radius: 4px;
 }
 
 .badge-pill {
-    border-radius: 12px;
+  border-radius: 12px;
 }
 
 .badge-red {
-    background-color: #FEE2E2;
-    color: #991B1B;
+  background-color: #fee2e2;
+  color: #991b1b;
 }
 
 .badge-yellow {
-    background-color: #FEF3C7;
-    color: #92400E;
+  background-color: #fef3c7;
+  color: #92400e;
 }
 
 .badge-green {
-    background-color: #D1FAE5;
-    color: #065F46;
+  background-color: #d1fae5;
+  color: #065f46;
 }
 
 .badge-blue {
-    background-color: #DBEAFE;
-    color: #1E40AF;
+  background-color: #dbeafe;
+  color: #1e40af;
 }
 
 .badge-indigo {
-    background-color: #E0E7FF;
-    color: #3730A3;
+  background-color: #e0e7ff;
+  color: #3730a3;
 }
 .badge-purple {
-    background-color: #EDE9FE;
-    color: #5B21B6;
+  background-color: #ede9fe;
+  color: #5b21b6;
 }
 
 .badge-pink {
-    background-color: #FCE7F3;
-    color: #9D174D;
+  background-color: #fce7f3;
+  color: #9d174d;
 }

@@ -11,9 +11,23 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 
 library.add(fas, far, fab);
 
-//pass in image as a prop: image="SRC LINK HERE"
-//pass 3 children: first one <h2> description, second & third <p> information.
+/**
+ * @typedef {Object} TestimonialWithImageProps
+ * @property {[React.ReactElement, React.ReactElement, React.ReactElement]} children - Pass 3 elements as children: 1st <h2> quote, 2nd & 3rd <p> person information.
+ * @property {React.ReactElement} [image] - Pass image link as a prop.
+ */
 
+/**
+ * Testimonial with image, including quote, name and title.
+ *
+ * @param {TestimonialWithImageProps} props
+ * @example
+ * <TestimonialWithImage image="SRC LINK HERE">
+ *   <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. </h2>
+ *   <p>May Andersons</p>
+ *   <p>Workcation, CTO</p>
+ * </TestimonialWithImage>
+ */
 export default function TestimonialWithImage({ image, children }) {
   const childrenArr = Children.toArray(children);
   return (

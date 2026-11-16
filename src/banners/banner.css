@@ -1,0 +1,81 @@
+.banner {
+  background-color: #eff6ff;
+  width: 896px;
+  padding: 16px;
+  border-radius: 6px;
+  color: #1e40af;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  gap: 12px;
+}
+
+svg {
+  font-size: 16px;
+}
+
+.banner-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.banner-text-container > *:nth-child(2) {
+  font-weight: 400;
+  color: #1c51b9;
+}
+
+.banner-text-container > p {
+  margin: 0;
+}
+
+.banner-success {
+  background-color: #ecfdf5;
+  color: #065f46;
+}
+
+.banner-success > div.icon-container > svg {
+  color: #34d399;
+}
+
+.banner-success > .banner-text-container > *:nth-child(2) {
+  color: #047857;
+}
+
+.banner-warning {
+  background-color: #fffbeb;
+  color: #92400e;
+}
+
+.banner-warning > div.icon-container > svg {
+  color: #fbbf24;
+}
+
+.banner-warning > .banner-text-container > *:nth-child(2) {
+  color: #b45309;
+}
+
+.banner-error {
+  background-color: #fef2f2;
+  color: #92400e;
+}
+.banner-error > div.icon-container > svg {
+  color: #f87171;
+}
+
+.banner-error > .banner-text-container > *:nth-child(2) {
+  color: #b45309;
+}
+
+.banner-neutral {
+  background-color: #eff6ff;
+  color: #1e40af;
+}
+
+.banner-neutral > div.icon-container > svg {
+  color: #60a5fa;
+}
+
+.banner-neutral > .banner-text-container > *:nth-child(2) {
+  color: #1c51b9;
+}
